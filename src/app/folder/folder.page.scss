@@ -2,13 +2,43 @@ ion-menu-button {
   color: var(--ion-color-primary);
 }
 
+ion-slide{
+  display:block;
+}
+
+.slide-img-padding{
+  padding:40px
+
+}
+
+.btn-primary {
+  height: 45px;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
+  color: azure;
+  text-align: center;
+  text-justify: auto;
+}
+
+h3 {
+  font-size:24px;
+  font-weight: lighter;
+  margin-bottom: 60px;}
+
 #container {
   text-align: center;
+  display: flex;
   position: absolute;
-  left: 0;
+  left: 40px;
   right: 0;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
+
+  
+
 }
 
 #container strong {

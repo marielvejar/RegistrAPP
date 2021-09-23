@@ -7,6 +7,22 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./folder.page.scss'],
 })
 export class FolderPage implements OnInit {
+
+  slides = [
+    {
+      img : 'assets/img/conectados.svg',
+      titulo: 'Para que dejes constancia tus asistencias'
+    },
+    {
+      img : 'assets/img/estudio.svg',
+      titulo: 'No pierdas tu progreso de estudios'
+    },
+    {
+      img : 'assets/img/logo.svg',
+      titulo: 'Con simplemente escanear, ya estás adentro'
+    },
+  ];
+
   public folder: string;
 
   constructor(private activatedRoute: ActivatedRoute) { }

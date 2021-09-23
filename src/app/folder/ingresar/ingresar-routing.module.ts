@@ -1,18 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { IonButton } from '@ionic/angular';
-import { FolderPage } from './folder.page';
+
+import { IngresarPage } from './ingresar.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: FolderPage
-  },
-  
+    component: IngresarPage
+  }
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class FolderPageRoutingModule {}
+export class IngresarPageRoutingModule {}
